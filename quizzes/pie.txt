@@ -1,0 +1,10 @@
+Q What shape is a pie?
+A square
+C1 circle
+C2 triangle
+C3 rectangle
+Q What is a tree?
+A a plant
+C1 an object
+C2 a fridge
+C3 a hoth
