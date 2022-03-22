@@ -7,15 +7,15 @@ def edit_quiz(file):
   done = False
   while (done == False):
     q = input("Enter a question. ")
-    file.write("Q " + q + "\n")
+    file.write("Q " + q)
     a = input("Enter the correct answer. ")
-    file.write("A " + a + "\n")
+    file.write("A " + a)
     choice1 = input("Enter an incorrect choice. ")
-    file.write("C1 " + choice1 + "\n")
+    file.write("C1 " + choice1)
     choice2 = input("Enter another incorrect choice. ")
-    file.write("C2 " + choice2 + "\n")
+    file.write("C2 " + choice2)
     choice3 = input("Enter a third incorrect choice. ")
-    file.write("C3 " + choice3 + "\n")
+    file.write("C3 " + choice3)
     dun = input("Are you done? ")
     if(dun == "yes" or dun == "y"):
       print("Done!")
