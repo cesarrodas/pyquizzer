@@ -48,7 +48,7 @@ if(quiz == "no" or quiz == "n"):
   add_question = input("Are we adding a question to this quiz? ")
   if(add_question == "yes" or add_question == "y"):
     quiz_name = input("What is the quizz's name? ")
-    if(quiz_name[-4] != "txt"):
+    if(quiz_name[-4:] != ".txt"):
       quiz_name = quiz_name + ".txt"
     file = os.path.exists('./quizzes/' + quiz_name)
     if(file == True):
